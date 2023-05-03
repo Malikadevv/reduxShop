@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./companent/Header/Header";
+import {Route, Routes} from "react-router-dom";
+import Products from "./companent/Poroducts";
+import Favorites from "./companent/page/Favorites";
+import Basket from "./companent/page/Basket/Basket";
+import New from "./companent/newLine";
+import NewLine from "./companent/newLine";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <div>
+            <NewLine/>
+        </div>
+    )
+        ;
 }
 
 export default App;

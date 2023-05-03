@@ -1,0 +1,9 @@
+.newCSS{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+}
+.newCSSicon{
+    font-size: 20px;
+}

@@ -1,0 +1,6 @@
+   export const ADD_TO_BASKET = 'ADD_TO_BASKET'
+   export const GET_PRODUCT = 'GET_PRODUCT'
+   export const DECREASE_QUANTITY = 'DECREASE_QUANTITY'
+   export const DELETE_FROM_BASKET = "DELETE_FROM_BASKET"
+   export const ADD_TO_FAVORITES = "ADD_TO_FAVORITES"
+
